@@ -1,0 +1,6 @@
+<project name="senchatouch" url="http://www.joshuagranick.com" license="BSD">
+    <user name="elyon"/>
+    <tag v="js"/>
+    <description>Provides support for Sencha Touch 2 in Javascript applications</description>
+    <version name="1.07">Updated for Sencha Touch 2, pr3</version>
+</project>
