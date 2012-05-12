@@ -1,4 +1,4 @@
-package buildhx.ext.event.publisher;
+package ext.event.publisher;
 
 import ext.event.publisher.Dom;
 

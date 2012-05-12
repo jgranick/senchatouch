@@ -1,4 +1,4 @@
-package buildhx.ext.app;
+package ext.app;
 
 import ext.app.Action;
 import ext.app.Controller;

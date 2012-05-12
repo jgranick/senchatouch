@@ -1,4 +1,4 @@
-package buildhx.ext.data.writer;
+package ext.data.writer;
 
 import ext.Base;
 import ext.data.Request;

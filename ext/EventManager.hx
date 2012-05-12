@@ -1,4 +1,4 @@
-package buildhx.ext;
+package ext;
 
 @:native ("Ext.EventManager")
 extern class EventManager {

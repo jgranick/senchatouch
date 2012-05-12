@@ -1,4 +1,4 @@
-package buildhx.ext;
+package ext;
 
 @:native ("Ext.is")
 extern class Is {

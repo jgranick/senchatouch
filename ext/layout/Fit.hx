@@ -1,4 +1,4 @@
-package buildhx.ext.layout;
+package ext.layout;
 
 import ext.layout.Default;
 

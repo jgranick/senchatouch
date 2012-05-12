@@ -1,4 +1,4 @@
-package buildhx.ext;
+package ext;
 
 @:native ("Ext.Number")
 extern class Number {

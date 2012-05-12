@@ -1,4 +1,4 @@
-package buildhx.ext.fx.easing;
+package ext.fx.easing;
 
 import ext.Base;
 

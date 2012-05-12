@@ -1,4 +1,4 @@
-package buildhx.ext;
+package ext;
 
 @:native ("Ext.Object")
 extern class Object {

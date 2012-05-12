@@ -1,4 +1,4 @@
-package buildhx.ext.plugin;
+package ext.plugin;
 
 import ext.Component;
 import ext.data.Store;

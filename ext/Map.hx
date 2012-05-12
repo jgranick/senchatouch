@@ -1,4 +1,4 @@
-package buildhx.ext;
+package ext;
 
 import ext.Component;
 import ext.util.Geolocation;

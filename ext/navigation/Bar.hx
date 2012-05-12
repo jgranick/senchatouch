@@ -1,4 +1,4 @@
-package buildhx.ext.navigation;
+package ext.navigation;
 
 import ext.navigation.View;
 import ext.TitleBar;

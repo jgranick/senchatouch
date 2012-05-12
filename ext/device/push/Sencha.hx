@@ -1,4 +1,4 @@
-package buildhx.ext.device.push;
+package ext.device.push;
 
 import ext.device.push.Abstract;
 

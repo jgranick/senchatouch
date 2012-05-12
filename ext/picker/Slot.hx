@@ -1,4 +1,4 @@
-package buildhx.ext.picker;
+package ext.picker;
 
 import ext.data.Model;
 import ext.data.Record;

@@ -1,4 +1,4 @@
-package buildhx.ext.picker;
+package ext.picker;
 
 import ext.picker.Picker;
 

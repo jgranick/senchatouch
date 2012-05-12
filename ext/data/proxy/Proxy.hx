@@ -1,4 +1,4 @@
-package buildhx.ext.data.proxy;
+package ext.data.proxy;
 
 import ext.data.Batch;
 import ext.data.Operation;

@@ -1,4 +1,4 @@
-package buildhx.ext.event;
+package ext.event;
 
 import ext.Base;
 

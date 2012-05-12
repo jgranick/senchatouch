@@ -1,4 +1,4 @@
-package buildhx.ext.field;
+package ext.field;
 
 import ext.field.Checkbox;
 import ext.field.Radio;

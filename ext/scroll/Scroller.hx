@@ -1,4 +1,4 @@
-package buildhx.ext.scroll;
+package ext.scroll;
 
 import ext.Evented;
 import ext.scroll.Scroller;

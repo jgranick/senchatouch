@@ -1,4 +1,4 @@
-package buildhx.ext.feature;
+package ext.feature;
 
 @:native ("Ext.feature.has")
 extern class Has {

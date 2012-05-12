@@ -1,4 +1,4 @@
-package buildhx.ext.data;
+package ext.data;
 
 import ext.AbstractManager;
 import ext.data.Model;

@@ -1,4 +1,4 @@
-package buildhx.ext.viewport;
+package ext.viewport;
 
 import ext.Base;
 

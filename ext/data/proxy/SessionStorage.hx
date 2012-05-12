@@ -1,4 +1,4 @@
-package buildhx.ext.data.proxy;
+package ext.data.proxy;
 
 import ext.data.proxy.WebStorage;
 

@@ -1,4 +1,4 @@
-package buildhx.ext.direct;
+package ext.direct;
 
 import ext.Base;
 import ext.direct.Provider;

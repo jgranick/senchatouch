@@ -1,4 +1,4 @@
-package buildhx.ext.data.writer;
+package ext.data.writer;
 
 import ext.data.writer.Writer;
 

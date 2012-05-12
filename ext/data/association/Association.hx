@@ -1,4 +1,4 @@
-package buildhx.ext.data.association;
+package ext.data.association;
 
 import ext.Base;
 

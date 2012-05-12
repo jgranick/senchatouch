@@ -1,4 +1,4 @@
-package buildhx.ext.data.reader;
+package ext.data.reader;
 
 import ext.data.Model;
 import ext.data.reader.Reader;

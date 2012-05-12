@@ -1,4 +1,4 @@
-package buildhx.ext.mixin;
+package ext.mixin;
 
 import ext.data.Model;
 import ext.data.Record;

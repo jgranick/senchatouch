@@ -1,4 +1,4 @@
-package buildhx.ext.data;
+package ext.data;
 
 import ext.data.Model;
 import ext.data.Store;

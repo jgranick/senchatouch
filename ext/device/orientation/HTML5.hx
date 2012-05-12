@@ -1,4 +1,4 @@
-package buildhx.ext.device.orientation;
+package ext.device.orientation;
 
 import ext.device.orientation.Abstract;
 

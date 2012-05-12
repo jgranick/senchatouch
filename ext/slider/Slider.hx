@@ -1,4 +1,4 @@
-package buildhx.ext.slider;
+package ext.slider;
 
 import ext.Container;
 import ext.slider.Thumb;

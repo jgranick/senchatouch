@@ -1,4 +1,4 @@
-package buildhx.ext.device.communicator;
+package ext.device.communicator;
 
 import ext.Base;
 

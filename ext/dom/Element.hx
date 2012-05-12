@@ -1,4 +1,4 @@
-package buildhx.ext.dom;
+package ext.dom;
 
 import ext.Base;
 import ext.dom.CompositeElementLite;

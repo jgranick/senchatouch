@@ -1,4 +1,4 @@
-package buildhx.ext.device;
+package ext.device;
 
 import ext.Base;
 

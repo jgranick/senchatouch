@@ -1,10 +1,11 @@
-package buildhx.;
+package ;
 
 import ext.Base;
 import ext.data.Model;
 import ext.data.Store;
 import ext.dom.CompositeElementLite;
 import ext.dom.Element;
+import ext.MessageBox;
 import js.Dom;
 
 @:native ("Ext")
@@ -21,6 +22,7 @@ extern class Ext {
 	public static var isSecure:Bool;
 	public static var isSetup:Bool;
 	public static var Logger:Dynamic;
+	public static var Msg:MessageBox;
 	public static var readyListeners:Array <Dynamic>;
 	public static var setupListeners:Array <Dynamic>;
 	public static var SSL_SECURE_URL:Bool;
@@ -35,7 +37,7 @@ extern class Ext {
 	public static function clean (array:Array <Dynamic>):Array <Dynamic>;
 	public static function clone (item:Dynamic):Dynamic;
 	public static function copyTo (dest:Dynamic, source:Dynamic, names:Array <Dynamic>, ?usePrototypeKeys:Bool):Dynamic;
-	public static function create ():Void;
+	public static function create (type:String, config:Dynamic):Dynamic;
 	public static function createByAlias ():Void;
 	public static function createInterceptor (origFn:Dynamic, newFn:Dynamic, ?scope:Dynamic, ?returnValue:Dynamic):Dynamic;
 	public static function createWidget ():Void;

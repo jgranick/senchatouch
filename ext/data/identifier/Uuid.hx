@@ -1,4 +1,4 @@
-package buildhx.ext.data.identifier;
+package ext.data.identifier;
 
 import ext.data.identifier.Simple;
 

@@ -1,4 +1,4 @@
-package buildhx.ext;
+package ext;
 
 import ext.data.Store;
 import ext.Mask;

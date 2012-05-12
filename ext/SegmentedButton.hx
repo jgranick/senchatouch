@@ -1,4 +1,4 @@
-package buildhx.ext;
+package ext;
 
 import ext.Button;
 import ext.Container;

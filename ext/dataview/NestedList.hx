@@ -1,4 +1,4 @@
-package buildhx.ext.dataview;
+package ext.dataview;
 
 import ext.Component;
 import ext.Container;

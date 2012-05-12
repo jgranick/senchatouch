@@ -1,4 +1,4 @@
-package buildhx.ext.util;
+package ext.util;
 
 import ext.util.Sorter;
 

@@ -1,4 +1,4 @@
-package buildhx.ext.tab;
+package ext.tab;
 
 import ext.Container;
 

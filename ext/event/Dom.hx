@@ -1,4 +1,4 @@
-package buildhx.ext.event;
+package ext.event;
 
 import js.Dom;
 

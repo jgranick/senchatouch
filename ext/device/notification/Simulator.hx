@@ -1,4 +1,4 @@
-package buildhx.ext.device.notification;
+package ext.device.notification;
 
 import ext.device.notification.Abstract;
 

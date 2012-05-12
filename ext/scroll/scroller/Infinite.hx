@@ -1,4 +1,4 @@
-package buildhx.ext.scroll.scroller;
+package ext.scroll.scroller;
 
 import ext.scroll.scroller.CssPosition;
 
