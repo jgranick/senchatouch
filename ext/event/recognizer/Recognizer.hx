@@ -1,8 +1,10 @@
-package ext.event.recognizer;
+package buildhx.ext.event.recognizer;
 
 import ext.Base;
 
 @:native ("Ext.event.recognizer.Recognizer")
 extern class Recognizer extends Base {
+
+	public function getId ():String;
 
 }

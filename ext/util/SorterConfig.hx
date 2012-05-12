@@ -1,10 +1,11 @@
-package ext.util;
+package buildhx.ext.util;
 
 import ext.BaseConfig;
 
 class SorterConfig extends BaseConfig {
 
 	public var direction:String;
+	public var id:Dynamic;
 	public var property:String;
 	public var root:String;
 	public var sorterFn:Dynamic;

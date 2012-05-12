@@ -1,4 +1,4 @@
-package ext.dom;
+package buildhx.ext.dom;
 
 import ext.Base;
 import ext.dom.CompositeElementLite;
@@ -24,5 +24,6 @@ extern class CompositeElementLite extends Base {
 	public function last ():Element;
 	public function removeElement (el:Dynamic, ?removeDom:Bool):CompositeElementLite;
 	public function replaceElement (el:Dynamic, replacement:Dynamic, ?domReplace:Bool):CompositeElementLite;
+	public static function importElementMethods ():Void;
 
 }

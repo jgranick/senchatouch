@@ -1,11 +1,10 @@
-package ext.tab;
+package buildhx.ext.tab;
 
-import ext.Component;
 import ext.ToolbarConfig;
 
 class BarConfig extends ToolbarConfig {
 
-	public var activeTab:Component;
+	public var activeTab:Dynamic;
 
 	public function new (properties:Dynamic = null):Void {
 		

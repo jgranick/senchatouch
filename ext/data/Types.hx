@@ -1,4 +1,4 @@
-package ext.data;
+package buildhx.ext.data;
 
 import ext.Base;
 

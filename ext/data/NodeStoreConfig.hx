@@ -1,10 +1,11 @@
-package ext.data;
+package buildhx.ext.data;
 
-import ext.data.AbstractStoreConfig;
 import ext.data.Model;
+import ext.data.StoreConfig;
 
-class NodeStoreConfig extends AbstractStoreConfig {
+class NodeStoreConfig extends StoreConfig {
 
+	public var folderSort:Bool;
 	public var node:Model;
 	public var recursive:Bool;
 	public var rootVisible:Bool;

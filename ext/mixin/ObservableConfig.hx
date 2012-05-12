@@ -1,4 +1,4 @@
-package ext.mixin;
+package buildhx.ext.mixin;
 
 import ext.mixin.MixinConfig;
 

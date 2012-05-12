@@ -1,24 +1,29 @@
-package ext.data;
+package buildhx.ext.data;
 
-class RequestConfig implements Dynamic {
+import ext.BaseConfig;
+import ext.data.JsonP;
+import ext.data.Operation;
+import ext.data.proxy.Proxy;
+
+class RequestConfig extends BaseConfig {
 
 	public var action:String;
+	public var callbackKey:String;
+	public var disableCaching:Bool;
+	public var headers:Dynamic;
+	public var jsonData:Dynamic;
+	public var jsonp:JsonP;
 	public var method:String;
+	public var operation:Operation;
 	public var params:Dynamic;
+	public var proxy:Proxy;
 	public var url:String;
+	public var withCredentials:Bool;
+	public var xmlData:Dynamic;
 
 	public function new (properties:Dynamic = null):Void {
 		
-		untyped __js__ ("this.__proto__ = {}.__proto__");
-		
-		if (properties != null) {
-			
-			for (propertyName in Reflect.fields (properties)) {
-				
-				Reflect.setField (this, propertyName, Reflect.field (properties, propertyName));				
-			}
-			
-		}
+		super (properties);
 		
 	}
 

@@ -1,7 +1,6 @@
-package ext.util;
+package buildhx.ext.util;
 
 import ext.Base;
-import ext.util.Offset;
 import ext.util.Point;
 import ext.util.Region;
 
@@ -13,7 +12,7 @@ extern class Region extends Base {
 	public function contains (region:Region):Void;
 	public function copy ():Region;
 	public function equals (region:Region):Bool;
-	public function getOutOfBoundOffset (axis:String, p:Point):Offset;
+	public function getOutOfBoundOffset (axis:String, p:Point):Region;
 	public function getOutOfBoundOffsetX (p:Float):Float;
 	public function getOutOfBoundOffsetY (p:Float):Float;
 	public function intersect (region:Region):Dynamic;

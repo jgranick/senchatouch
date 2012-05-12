@@ -1,11 +1,10 @@
-package ext.data.proxy;
+package buildhx.ext.data.proxy;
 
-import ext.data.Model;
 import ext.data.proxy.ClientConfig;
 
 class MemoryConfig extends ClientConfig {
 
-	public var data:Array <Model>;
+	public var data:Dynamic;
 
 	public function new (properties:Dynamic = null):Void {
 		

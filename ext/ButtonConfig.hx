@@ -1,13 +1,15 @@
-package ext;
+package buildhx.ext;
 
 import ext.ComponentConfig;
 
 class ButtonConfig extends ComponentConfig {
 
 	public var autoEvent:String;
+	public var badge:String;
 	public var badgeCls:String;
 	public var badgeText:String;
 	public var handler:Dynamic;
+	public var hasBadgeCls:String;
 	public var icon:String;
 	public var iconAlign:String;
 	public var iconCls:String;
@@ -15,6 +17,7 @@ class ButtonConfig extends ComponentConfig {
 	public var iconMaskCls:String;
 	public var labelCls:String;
 	public var pressedCls:String;
+	public var pressedDelay:Dynamic;
 	public var scope:Dynamic;
 	public var text:String;
 

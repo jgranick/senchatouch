@@ -1,4 +1,4 @@
-package ext.tab;
+package buildhx.ext.tab;
 
 import ext.ButtonConfig;
 

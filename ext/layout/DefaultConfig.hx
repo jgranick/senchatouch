@@ -1,8 +1,11 @@
-package ext.layout;
+package buildhx.ext.layout;
 
-import ext.EventedBaseConfig;
+import ext.EventedConfig;
+import ext.fx.layout.Card;
 
-class DefaultConfig extends EventedBaseConfig {
+class DefaultConfig extends EventedConfig {
+
+	public var animation:Card;
 
 	public function new (properties:Dynamic = null):Void {
 		

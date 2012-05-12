@@ -1,4 +1,4 @@
-package ext.slider;
+package buildhx.ext.slider;
 
 import ext.ComponentConfig;
 

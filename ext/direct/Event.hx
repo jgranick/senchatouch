@@ -1,4 +1,4 @@
-package ext.direct;
+package buildhx.ext.direct;
 
 import ext.Base;
 
@@ -6,6 +6,6 @@ import ext.Base;
 extern class Event extends Base {
 
 	public function getData ():Dynamic;
-	public function new (?config:Dynamic):Void;
+	public function setData (data:Dynamic):Void;
 
 }

@@ -1,9 +1,9 @@
-package ext.data;
+package buildhx.ext.data;
 
-import ext.util.MixedCollection;
+import ext.util.Collection;
 
 @:native ("Ext.data.Errors")
-extern class Errors extends MixedCollection {
+extern class Errors extends Collection {
 
 	public function getByField (fieldName:String):Array <Dynamic>;
 	public function isValid ():Bool;

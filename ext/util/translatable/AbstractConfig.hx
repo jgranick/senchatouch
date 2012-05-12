@@ -1,8 +1,8 @@
-package ext.util.translatable;
+package buildhx.ext.util.translatable;
 
-import ext.BaseConfig;
+import ext.EventedConfig;
 
-class AbstractConfig extends BaseConfig {
+class AbstractConfig extends EventedConfig {
 
 	public function new (properties:Dynamic = null):Void {
 		

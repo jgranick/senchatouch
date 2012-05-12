@@ -1,11 +1,12 @@
-package ext.util;
+package buildhx.ext.util;
 
-import ext.EventedBaseConfig;
+import ext.EventedConfig;
 
-class GeoLocationConfig extends EventedBaseConfig {
+class GeolocationConfig extends EventedConfig {
 
 	public var allowHighAccuracy:Bool;
 	public var autoUpdate:Bool;
+	public var frequency:Float;
 	public var maximumAge:Float;
 	public var timeout:Float;
 

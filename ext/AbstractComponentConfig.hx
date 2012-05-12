@@ -1,8 +1,8 @@
-package ext;
+package buildhx.ext;
 
-import ext.EventedBaseConfig;
+import ext.EventedConfig;
 
-class AbstractComponentConfig extends EventedBaseConfig {
+class AbstractComponentConfig extends EventedConfig {
 
 	public function new (properties:Dynamic = null):Void {
 		

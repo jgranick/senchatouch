@@ -1,10 +1,11 @@
-package ext.viewport;
+package buildhx.ext.viewport;
 
 import ext.ContainerConfig;
 
 class DefaultConfig extends ContainerConfig {
 
 	public var autoMaximize:Bool;
+	public var autoRender:Bool;
 	public var preventPanning:Bool;
 	public var preventZooming:Bool;
 

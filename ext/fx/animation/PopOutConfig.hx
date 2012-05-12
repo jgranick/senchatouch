@@ -1,4 +1,4 @@
-package ext.fx.animation;
+package buildhx.ext.fx.animation;
 
 import ext.fx.animation.PopConfig;
 

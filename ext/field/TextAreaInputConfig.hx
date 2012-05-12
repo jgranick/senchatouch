@@ -1,4 +1,4 @@
-package ext.field;
+package buildhx.ext.field;
 
 import ext.field.InputConfig;
 

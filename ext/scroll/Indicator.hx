@@ -1,4 +1,4 @@
-package ext.scroll;
+package buildhx.ext.scroll;
 
 import ext.Base;
 

@@ -1,4 +1,4 @@
-package ext.data.reader;
+package buildhx.ext.data.reader;
 
 import ext.data.reader.JsonConfig;
 

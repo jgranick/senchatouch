@@ -1,10 +1,13 @@
-package ext;
+package buildhx.ext;
 
 import ext.Base;
 import ext.Template;
 
 @:native ("Ext.Template")
 extern class Template extends Base {
+
+	//public var isTemplate:Bool;
+	public static var isTemplate:Bool;
 
 	public function append (el:Dynamic, values:Dynamic, ?returnElement:Bool):Dynamic;
 	public function apply (values:Dynamic):String;

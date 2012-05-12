@@ -1,11 +1,10 @@
-package ext.util;
+package buildhx.ext.util;
 
-import ext.data.Model;
 import ext.util.Sorter;
 
 @:native ("Ext.util.Grouper")
 extern class Grouper extends Sorter {
 
-	public function getGroupString (instance:Model):String;
+	//public function defaultSortFn (item1:Dynamic, item2:Dynamic):Void;
 
 }

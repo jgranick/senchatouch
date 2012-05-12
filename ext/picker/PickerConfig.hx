@@ -1,14 +1,14 @@
-package ext.picker;
+package buildhx.ext.picker;
 
 import ext.SheetConfig;
-import ext.Toolbar;
 
 class PickerConfig extends SheetConfig {
 
+	public var activeCls:String;
 	public var cancelButton:Dynamic;
 	public var doneButton:Dynamic;
 	public var slots:Array <Dynamic>;
-	public var toolbar:Toolbar;
+	public var toolbar:Dynamic;
 	public var useTitles:Bool;
 	public var value:Dynamic;
 

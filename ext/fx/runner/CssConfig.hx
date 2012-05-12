@@ -1,8 +1,8 @@
-package ext.fx.runner;
+package buildhx.ext.fx.runner;
 
-import ext.EventedBaseConfig;
+import ext.EventedConfig;
 
-class CssConfig extends EventedBaseConfig {
+class CssConfig extends EventedConfig {
 
 	public function new (properties:Dynamic = null):Void {
 		

@@ -1,4 +1,4 @@
-package ext.slider;
+package buildhx.ext.slider;
 
 import ext.ContainerConfig;
 
@@ -6,6 +6,7 @@ class SliderConfig extends ContainerConfig {
 
 	public var allowThumbsOverlapping:Bool;
 	public var animation:Dynamic;
+	public var animationDuration:Bool;
 	public var increment:Float;
 	public var maxValue:Float;
 	public var minValue:Float;

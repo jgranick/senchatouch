@@ -1,4 +1,4 @@
-package ext.scroll.indicator;
+package buildhx.ext.scroll.indicator;
 
 import ext.scroll.indicator.AbstractConfig;
 

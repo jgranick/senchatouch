@@ -1,8 +1,8 @@
-package ext.fx.layout.card;
+package buildhx.ext.fx.layout.card;
 
-import ext.BaseConfig;
+import ext.EventedConfig;
 
-class AbstractConfig extends BaseConfig {
+class AbstractConfig extends EventedConfig {
 
 	public function new (properties:Dynamic = null):Void {
 		

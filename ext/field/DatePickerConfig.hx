@@ -1,9 +1,10 @@
-package ext.field;
+package buildhx.ext.field;
 
 import ext.field.TextConfig;
 
 class DatePickerConfig extends TextConfig {
 
+	public var dateFormat:String;
 	public var destroyPickerOnHide:Bool;
 	public var picker:Dynamic;
 

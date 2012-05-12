@@ -1,8 +1,8 @@
-package ext.data;
+package buildhx.ext.data;
 
-import ext.util.MixedCollectionConfig;
+import ext.util.CollectionConfig;
 
-class ErrorsConfig extends MixedCollectionConfig {
+class ErrorsConfig extends CollectionConfig {
 
 	public function new (properties:Dynamic = null):Void {
 		

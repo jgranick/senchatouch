@@ -1,16 +1,16 @@
-package ext.data.association;
+package buildhx.ext.data.association;
 
-import ext.data.reader.Reader;
+import ext.Base;
 
 @:native ("Ext.data.association.Association")
-extern class Association {
+extern class Association extends Base {
 
-	//public var associatedName:String;
-	//public var ownerName:String;
-	public static var associatedName:String;
-	public static var ownerName:String;
-
-	public function getReader ():Reader;
+	public function getAssociatedModel ():String;
+	public function getAssociatedName ():String;
+	public function getOwnerModel ():Dynamic;
 	public function new (?config:Dynamic):Void;
+	public function setAssociatedModel (associatedModel:String):Void;
+	public function setAssociatedName (associatedName:String):Void;
+	public function setOwnerModel (ownerModel:Dynamic):Void;
 
 }

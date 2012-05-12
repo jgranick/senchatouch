@@ -1,4 +1,4 @@
-package ext.navigation;
+package buildhx.ext.navigation;
 
 import ext.ContainerConfig;
 

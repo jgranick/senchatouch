@@ -1,8 +1,8 @@
-package ext.data.proxy;
+package buildhx.ext.data.proxy;
 
-import ext.BaseConfig;
+import ext.EventedConfig;
 
-class ProxyConfig extends BaseConfig {
+class ProxyConfig extends EventedConfig {
 
 	public var batchActions:Bool;
 	public var batchOrder:String;

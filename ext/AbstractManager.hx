@@ -1,4 +1,4 @@
-package ext;
+package buildhx.ext;
 
 import ext.Base;
 import ext.util.HashMap;
@@ -9,7 +9,7 @@ extern class AbstractManager extends Base {
 	//public var all:HashMap;
 	public static var all:HashMap;
 
-	public function create (config:Dynamic, defaultType:String):Dynamic;
+	//public function create (config:Dynamic, defaultType:String):Dynamic;
 	public function each (fn:Dynamic, scope:Dynamic):Void;
 	public function get (id:String):Dynamic;
 	public function getCount ():Float;

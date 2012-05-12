@@ -1,8 +1,8 @@
-package ext.carousel;
+package buildhx.ext.carousel;
 
-import ext.PanelConfig;
+import ext.ContainerConfig;
 
-class CarouselConfig extends PanelConfig {
+class CarouselConfig extends ContainerConfig {
 
 	public var direction:String;
 	public var indicator:Bool;

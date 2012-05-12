@@ -1,4 +1,4 @@
-package ext.data;
+package buildhx.ext.data;
 
 import ext.Base;
 import ext.data.Model;
@@ -20,20 +20,20 @@ extern class NodeInterface extends Base {
 	public static var parentNode:Dynamic;
 	public static var previousSibling:Dynamic;
 
+	//public function destroy (silent:Dynamic):Void;
 	public function appendChild (node:Array <Dynamic>):NodeInterface;
 	public function bubble (fn:Dynamic, ?scope:Dynamic, ?args:Array <Dynamic>):Void;
 	public function cascadeBy (fn:Dynamic, ?scope:Dynamic, ?args:Array <Dynamic>):Void;
+	public function clear (destroy:Bool):Void;
 	public function collapse (?recursive:Dynamic, ?_callback:Dynamic, ?scope:Dynamic):Void;
-	public function collapseChildren (?recursive:Dynamic, ?_callback:Dynamic, ?scope:Dynamic):Void;
 	public function contains (node:NodeInterface):Bool;
 	public function copy (?id:String, ?deep:Bool):NodeInterface;
 	public function createNode (node:Dynamic):Bool;
-	public function destroy (silent:Dynamic):Void;
 	public function eachChild (fn:Dynamic, ?scope:Dynamic, ?args:Array <Dynamic>):Void;
 	public function expand (?recursive:Dynamic, ?_callback:Dynamic, ?scope:Dynamic):Void;
-	public function expandChildren (?recursive:Dynamic, ?_callback:Dynamic, ?scope:Dynamic):Void;
 	public function findChild (attribute:String, value:Dynamic, ?deep:Bool):NodeInterface;
 	public function findChildBy (fn:Dynamic, ?scope:Dynamic, ?deep:Bool):NodeInterface;
+	public function getBubbleTarget ():Dynamic;
 	public function getChildAt (index:Float):NodeInterface;
 	public function getDepth ():Float;
 	public function getPath (?field:String, ?separator:String):String;
@@ -55,7 +55,9 @@ extern class NodeInterface extends Base {
 	public function removeAll (destroy:Bool):NodeInterface;
 	public function removeChild (node:NodeInterface, destroy:Bool):NodeInterface;
 	public function replaceChild (newChild:NodeInterface, oldChild:NodeInterface):NodeInterface;
-	public function sort (fn:Dynamic, recursive:Bool, suppressEvent:Bool):Void;
+	public function setFirstChild (node:NodeInterface):Void;
+	public function setLastChild (node:NodeInterface):Void;
+	public function sort (sortFn:Dynamic, recursive:Bool, suppressEvent:Bool):Void;
 	public function updateInfo (silent:Dynamic):Bool;
 	public static function decorate (record:Model):Void;
 

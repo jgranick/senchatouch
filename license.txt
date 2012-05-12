@@ -1,0 +1,3 @@
+The "senchatouch" library for Haxe is covered under the MIT open-source license.
+
+The Sencha Touch source files (in the /src directory) are covered under the GPLv3 open-source license, and have not been modified.

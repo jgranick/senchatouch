@@ -1,4 +1,4 @@
-package ext.fx.layout.card;
+package buildhx.ext.fx.layout.card;
 
 import ext.fx.layout.card.AbstractConfig;
 

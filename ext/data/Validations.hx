@@ -1,7 +1,9 @@
-package ext.data;
+package buildhx.ext.data;
 
-@:native ("Ext.data.validations")
-extern class Validations {
+import ext.Base;
+
+@:native ("Ext.data.Validations")
+extern class Validations extends Base {
 
 	public static var emailMessage:String;
 	public static var emailRe:EReg;
@@ -14,6 +16,7 @@ extern class Validations {
 	public static function email (config:Dynamic, email:String):Bool;
 	public static function exclusion (config:Dynamic, value:String):Bool;
 	public static function format (config:Dynamic, value:String):Bool;
+	public static function getMessage (type:String):Void;
 	public static function inclusion (config:Dynamic, value:String):Bool;
 	public static function length (config:Dynamic, value:String):Bool;
 	public static function presence (config:Dynamic, value:Dynamic):Bool;

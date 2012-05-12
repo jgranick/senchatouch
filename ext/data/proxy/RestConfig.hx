@@ -1,4 +1,4 @@
-package ext.data.proxy;
+package buildhx.ext.data.proxy;
 
 import ext.data.proxy.AjaxConfig;
 

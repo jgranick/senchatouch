@@ -1,10 +1,10 @@
-package ext.data;
+package buildhx.ext.data;
 
 import ext.data.Store;
-import ext.util.MixedCollection;
+import ext.util.Collection;
 
 @:native ("Ext.data.StoreManager")
-extern class StoreManager extends MixedCollection {
+extern class StoreManager extends Collection {
 
 	public static function lookup (store:Dynamic):Store;
 	public static function register (stores:):Void;

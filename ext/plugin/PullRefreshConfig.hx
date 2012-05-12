@@ -1,4 +1,4 @@
-package ext.plugin;
+package buildhx.ext.plugin;
 
 import ext.ComponentConfig;
 

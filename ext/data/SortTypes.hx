@@ -1,4 +1,4 @@
-package ext.data;
+package buildhx.ext.data;
 
 import ext.Base;
 
@@ -7,12 +7,12 @@ extern class SortTypes extends Base {
 
 	public static var stripTagsRE:EReg;
 
-	public static function asDate (s:Dynamic):Float;
-	public static function asFloat (s:Dynamic):Float;
-	public static function asInt (s:Dynamic):Float;
-	public static function asText (s:Dynamic):String;
-	public static function asUCString (s:Dynamic):String;
-	public static function asUCText (s:Dynamic):String;
-	public static function none (s:Dynamic):Dynamic;
+	public static function asDate (value:Dynamic):Float;
+	public static function asFloat (value:Dynamic):Float;
+	public static function asInt (value:Dynamic):Float;
+	public static function asText (value:Dynamic):String;
+	public static function asUCString (value:Dynamic):String;
+	public static function asUCText (value:Dynamic):String;
+	public static function none (value:Dynamic):Dynamic;
 
 }

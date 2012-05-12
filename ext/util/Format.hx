@@ -1,9 +1,11 @@
-package ext.util;
+package buildhx.ext.util;
 
 import ext.Base;
 
 @:native ("Ext.util.Format")
 extern class Format extends Base {
+
+	public static var defaultDateFormat:String;
 
 	public static function date (value:Dynamic, ?format:String):String;
 	public static function ellipsis (value:String, length:Float, word:Bool):String;

@@ -1,7 +1,11 @@
-package ext.data;
+package buildhx.ext.data;
 
-class FieldConfig implements Dynamic {
+import ext.BaseConfig;
 
+class FieldConfig extends BaseConfig {
+
+	public var allowBlank:Bool;
+	public var allowNull:Bool;
 	public var convert:Dynamic;
 	public var dateFormat:String;
 	public var defaultValue:Dynamic;
@@ -15,16 +19,7 @@ class FieldConfig implements Dynamic {
 
 	public function new (properties:Dynamic = null):Void {
 		
-		untyped __js__ ("this.__proto__ = {}.__proto__");
-		
-		if (properties != null) {
-			
-			for (propertyName in Reflect.fields (properties)) {
-				
-				Reflect.setField (this, propertyName, Reflect.field (properties, propertyName));				
-			}
-			
-		}
+		super (properties);
 		
 	}
 

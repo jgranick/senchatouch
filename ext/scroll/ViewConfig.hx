@@ -1,10 +1,10 @@
-package ext.scroll;
+package buildhx.ext.scroll;
 
-import ext.EventedBaseConfig;
+import ext.EventedConfig;
 
-class ViewConfig extends EventedBaseConfig {
+class ViewConfig extends EventedConfig {
 
-	public var flashIndicatorTimeout:Float;
+	public var indicatorsUi:String;
 
 	public function new (properties:Dynamic = null):Void {
 		

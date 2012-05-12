@@ -1,4 +1,4 @@
-package ext.util;
+package buildhx.ext.util;
 
 import ext.Base;
 

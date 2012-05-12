@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<buildhx>
+	
+	<source path="src" language="javascript" parser="jsduck" />
+	
+	<!-- 
+		
+		Most of the types for Sencha Touch are parsed automatically
+		from the JSDuck documentation.
+		
+		However, some of the types are incorrect or missing, so we'll
+		extend and modify the detected types here.
+		
+	-->
+	
+	<type name="Mixed..." remap="Dynamic" />
+	
+	<class name="Ext.Base" />
+	<class name="Ext.BaseConfig" config="true" />
+	<class name="Ext.dom.AbstractElement" />
+	<class name="Ext.Element" />
+	<class name="Ext.Msg" ignore="true" />
+	
+	<class name="Ext">
+		
+		<import name="ext.MessageBox" />
+		
+		<property name="Msg" type="Ext.MessageBox" static="true" />
+		
+		<method name="create" static="true">
+			
+			<parameter name="type" type="String" optional="false" />
+			<parameter name="config" type="Dynamic" optional="false" />
+			
+			<return type="Dynamic" />
+			
+		</method>
+		
+	</class>
+	
+	<class name="Ext.app.ControllerConfig">
+		
+		<import name="ext.app.Application" />
+		
+		<property name="launch" owner="Ext.app.Application" type="Application -> Void" />
+		<property name="init" owner="Ext.app.Application" type="Application -> Void" />
+		
+	</class>
+	
+	<output path="" />
+	
+</buildhx>

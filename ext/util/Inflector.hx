@@ -1,9 +1,13 @@
-package ext.util;
+package buildhx.ext.util;
 
 import ext.Base;
 
 @:native ("Ext.util.Inflector")
 extern class Inflector extends Base {
+
+	public static var plurals:Array <Dynamic>;
+	public static var singulars:Array <Dynamic>;
+	public static var uncountable:Array <Dynamic>;
 
 	public static function classify (word:String):String;
 	public static function clearPlurals ():Void;

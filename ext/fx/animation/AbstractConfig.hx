@@ -1,8 +1,11 @@
-package ext.fx.animation;
+package buildhx.ext.fx.animation;
 
-import ext.BaseConfig;
+import ext.EventedConfig;
 
-class AbstractConfig extends BaseConfig {
+class AbstractConfig extends EventedConfig {
+
+	public var before:Dynamic;
+	public var easing:String;
 
 	public function new (properties:Dynamic = null):Void {
 		

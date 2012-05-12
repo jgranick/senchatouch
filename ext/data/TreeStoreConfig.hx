@@ -1,13 +1,12 @@
-package ext.data;
+package buildhx.ext.data;
 
-import ext.data.AbstractStoreConfig;
+import ext.data.NodeStoreConfig;
 
-class TreeStoreConfig extends AbstractStoreConfig {
+class TreeStoreConfig extends NodeStoreConfig {
 
 	public var clearOnLoad:Bool;
 	public var defaultRootId:String;
 	public var defaultRootProperty:String;
-	public var folderSort:Bool;
 	public var nodeParam:String;
 	public var root:Dynamic;
 

@@ -1,4 +1,4 @@
-package ext.util;
+package buildhx.ext.util;
 
 import ext.Base;
 import ext.util.MixedCollection;
@@ -16,6 +16,7 @@ extern class Sortable extends Base {
 	public static var sorters:MixedCollection;
 	public static var sortRoot:String;
 
+	public function decodeSorters (sorters:Array <Dynamic>):Array <Dynamic>;
 	public function initSortable ():Void;
 	public function sort (sorters:Array <Dynamic>, direction:String):Array <Sorter>;
 

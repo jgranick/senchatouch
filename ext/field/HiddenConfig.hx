@@ -1,8 +1,8 @@
-package ext.field;
+package buildhx.ext.field;
 
-import ext.field.FieldConfig;
+import ext.field.TextConfig;
 
-class HiddenConfig extends FieldConfig {
+class HiddenConfig extends TextConfig {
 
 	public function new (properties:Dynamic = null):Void {
 		

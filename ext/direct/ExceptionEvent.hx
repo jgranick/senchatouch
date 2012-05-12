@@ -1,4 +1,4 @@
-package ext.direct;
+package buildhx.ext.direct;
 
 import ext.direct.RemotingEvent;
 

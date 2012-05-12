@@ -1,4 +1,4 @@
-package ext.carousel;
+package buildhx.ext.carousel;
 
 import ext.ComponentConfig;
 

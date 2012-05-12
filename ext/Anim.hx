@@ -1,4 +1,4 @@
-package ext;
+package buildhx.ext;
 
 @:native ("Ext.Anim")
 extern class Anim {
