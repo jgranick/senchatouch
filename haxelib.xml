@@ -2,5 +2,5 @@
     <user name="elyon"/>
     <tag v="js"/>
     <description>Provides support for Sencha Touch 2 in Javascript applications</description>
-    <version name="1.10">Fixed a silly mistake</version>
+    <version name="1.11">Minor bug fixes</version>
 </project>

@@ -1,4 +1,4 @@
-package buildhx.ext.event;
+package ext.event;
 
 class DomConfig implements Dynamic {
 

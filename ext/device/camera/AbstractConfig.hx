@@ -1,4 +1,4 @@
-package buildhx.ext.device.camera;
+package ext.device.camera;
 
 import ext.BaseConfig;
 

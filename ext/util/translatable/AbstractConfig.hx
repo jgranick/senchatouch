@@ -1,4 +1,4 @@
-package buildhx.ext.util.translatable;
+package ext.util.translatable;
 
 import ext.EventedConfig;
 

@@ -20,6 +20,8 @@
 	<class name="Ext.dom.AbstractElement" />
 	<class name="Ext.Element" />
 	<class name="Ext.Msg" ignore="true" />
+	<class name="Ext.Array" ignore="true" />
+	<class name="Ext.String" ignore="true" />
 	
 	<class name="Ext">
 		

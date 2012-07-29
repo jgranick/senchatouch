@@ -1,4 +1,4 @@
-package buildhx.ext.behavior;
+package ext.behavior;
 
 import ext.BaseConfig;
 

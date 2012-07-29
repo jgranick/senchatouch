@@ -1,4 +1,4 @@
-package buildhx.ext.fx.layout.card;
+package ext.fx.layout.card;
 
 import ext.EventedConfig;
 

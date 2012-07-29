@@ -1,4 +1,4 @@
-package buildhx.ext.carousel;
+package ext.carousel;
 
 import ext.DecoratorConfig;
 

@@ -1,4 +1,4 @@
-package buildhx.ext;
+package ext;
 
 class BaseConfig implements Dynamic {
 

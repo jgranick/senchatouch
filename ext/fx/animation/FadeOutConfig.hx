@@ -1,4 +1,4 @@
-package buildhx.ext.fx.animation;
+package ext.fx.animation;
 
 import ext.fx.animation.FadeConfig;
 

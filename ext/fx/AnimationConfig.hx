@@ -1,4 +1,4 @@
-package buildhx.ext.fx;
+package ext.fx;
 
 import ext.BaseConfig;
 

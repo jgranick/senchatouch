@@ -1,4 +1,4 @@
-package buildhx.ext.device.geolocation;
+package ext.device.geolocation;
 
 import ext.device.geolocation.AbstractConfig;
 

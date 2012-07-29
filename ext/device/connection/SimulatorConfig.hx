@@ -1,4 +1,4 @@
-package buildhx.ext.device.connection;
+package ext.device.connection;
 
 import ext.device.connection.AbstractConfig;
 

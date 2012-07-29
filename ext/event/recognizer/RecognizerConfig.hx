@@ -1,4 +1,4 @@
-package buildhx.ext.event.recognizer;
+package ext.event.recognizer;
 
 import ext.BaseConfig;
 
